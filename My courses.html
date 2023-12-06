@@ -1,0 +1,199 @@
+<html>
+<head>
+    <title>My Courses</title>
+    <link rel="icon" type="image/png" href="Images/logo.png"/>
+    <style>
+        /* GRIZZLY WAS HERE (AHMED YASSIN) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+        .main {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 10px;
+            padding: 10px;
+        }
+        .sidebar {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+        .card h3 {
+            margin: 0;
+            padding: 0;
+        }
+        .card p {
+            margin: 5px 0;
+            padding: 0;
+        }
+        .course {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+        }
+        .course img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .course a {
+            text-decoration: none;
+            color: black;
+        }
+        .footer {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Courses</h1>
+            <img src="Images/logo.png" alt="University" class="logo">
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <div class="card">
+                    <h3>Welcome, Ahmed Yassin!</h3>
+                    <p>You have 29 new messages.</p>
+                    <p>You have 4 pending assignments.</p>
+                    <p>You have 3 upcoming exam.</p>
+                </div>
+                <div class="card">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Student Dashboard</a></li>
+                        <li><a href="My profile.html">My Profile</a></li>
+                        <li><a href="My courses.html">My Courses</a></li>
+                        <li><a href="My grades.html">My Grades</a></li>
+                        <li><a href="My calendar.html">My Calendar</a></li>
+                        <li><a href="My settings.html">My Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h3>My Courses</h3>
+                    <p>Here are the courses you are enrolled in this semester:</p>
+                    <div class="course">
+                        <img src="Images/web.png" alt="Web Design">
+                        <a href="web.html"><h4>Web Design</h4></a>
+                        <p>
+                            <ul>
+                                <li>CREDIT: 3 HOURS</li>
+                                <li>Staff: 
+                                    <ul>
+                                        <li>Metwally Rashad</li>
+                                        <li>Yasmine Abdel Wahed</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="course">
+                        <img src="Images/Marketing.png" alt="Marketing">
+                        <a href="#"><h4>Marketing Research</h4></a>
+                        <p>
+                            <ul>
+                                <li>CREDIT: 3 HOURS</li>
+                                <li>Staff: 
+                                    <ul>
+                                        <li>Mohamed Atia</li>
+                                        <li>Meryam Mokhtar</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+                        </p>
+                    </div>
+                    <div class="course">
+                        <img src="Images/ECO.png" alt="Macro Economics">
+                        <a href="#"><h4>Macro Economics</h4></a>
+                        <p>
+                            <ul>
+                                <li>CREDIT: 3 HOURS</li>
+                                <li>Staff: 
+                                    <ul>
+                                        <li>Eman Mahros</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+                        </p>
+                    </div>
+                    <div class="course">
+                        <img src="Images/Acc.png" alt="Intermediate Accounting 1">
+                        <a href="#"><h4>Intermediate Accounting 1</h4></a>
+                        <p>
+                            <ul>
+                                <li>CREDIT: 3 HOURS</li>
+                                <li>Staff: 
+                                    <ul>
+                                        <li>Hazem Mahfouz</li>
+                                        <li>Omar Hasheesh</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+                        </p>
+                    </div>
+                    <div class="course">
+                        <img src="Images/stats.png" alt="Principles of Statistics">
+                        <a href="#"><h4>Principles of Statistics</h4></a>
+                        <p>
+                            <ul>
+                                <li>CREDIT: 3 HOURS</li>
+                                <li>Staff: 
+                                    <ul>
+                                        <li>Lamya Ali Abd Elkalek</li>
+                                        <li>Amal Yahya</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>A project by : GRIZZLY'S Team</h4>                                  SITE VER:0.19
+        </div>
+    </div>
+</body>
+</html>

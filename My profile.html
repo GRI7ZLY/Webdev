@@ -1,0 +1,165 @@
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="icon" type="image/png" href="Images/logo.png"/>
+    <style>
+        /* GRIZZLY WAS HERE (AHMED YASSIN) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+        .main {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 10px;
+            padding: 10px;
+        }
+        .sidebar {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+        .card h3 {
+            margin: 0;
+            padding: 0;
+        }
+        .card p {
+            margin: 5px 0;
+            padding: 0;
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .info {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .info span {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Profile</h1>
+            <img src="Images/logo.png" alt="University" class="logo">
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <div class="card">
+                    <h3>Welcome, Ahmed Yassin!</h3>
+                    <p>You have 29 new messages.</p>
+                    <p>You have 4 pending assignments.</p>
+                    <p>You have 3 upcoming exam.</p>
+                </div>
+                <div class="card">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Student Dashboard</a></li>
+                        <li><a href="My profile.html">My Profile</a></li>
+                        <li><a href="My courses.html">My Courses</a></li>
+                        <li><a href="My grades.html">My Grades</a></li>
+                        <li><a href="My calendar.html">My Calendar</a></li>
+                        <li><a href="My settings.html">My Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h3>Personal Information</h3>
+                    <div class="info">
+                        <img src="Images/me.jpg" alt="Ahmed Yassin" class="avatar">
+                        <span>Ahmed Yassin</span>
+                    </div>
+                    <div class="info">
+                        <img src="Images/email.png" alt="Email" class="icon" style="float:left;width:20px;height:20px;">
+                        <span>AhmedYassin@example.com</span>
+                    </div>
+                    <div class="info">
+                        <img src="Images/phone.png" alt="Phone" class="icon" style="float:left;width:20px;height:20px;">
+                        <span>01001652665</span>
+                    </div>
+                    <div class="info">
+                        <img src="Images/location.png" alt="Location" class="icon" style="float:left;width:20px;height:20px;">
+                        <span>Balteem, EGYPT</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Academic Information</h3>
+                    <div class="info">
+                        <img src="Images/school.png" alt="School" class="icon" style="float:left;width:20px;height:20px;">
+                        <span>Team Leader</span>
+                    </div>
+                    <div class="info">
+                        <img src="Images/major.png" alt="Major" class="icon" style="float:left;width:20px;height:20px;">
+                        <span>Business Administration</span>
+                    </div>
+                    <div class="info">
+                        <img src="Images/gpa.png" alt="GPA" class="icon" style="float:left;width:20px;height:20px;">
+                        <span>4.9</span>
+                    </div>
+                    <div class="info">
+                        <img src="Images/graduation.png" alt="Graduation" class="icon" style="float:left;width:30px;height:30px;">
+                        <span>May 2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>A project by : GRIZZLY'S Team</h4>                                  SITE VER:0.19
+        </div>
+    </div>
+</body>
+</html>

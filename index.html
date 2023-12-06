@@ -1,0 +1,189 @@
+<html>
+<head> 
+    <title>Student Dashboard</title>
+    <link rel="icon" type="image/png" href="Images/logo.png"/>
+    <style>  
+        /* GRIZZLY WAS HERE (AHMED YASSIN) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+    }
+       .container { 
+            display: flex; 
+            flex-direction: column; 
+            height: 100vh; 
+    } 
+        .header {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    } 
+        .footer {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    } 
+        .logo {
+            width: 100px;
+            height: 100px;
+    } 
+        .main {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-gap: 10px;
+            padding: 10px;
+    } 
+        .sidebar {
+            background-color: #f0f0f0;
+            padding: 10px;
+    } 
+        .content { 
+            background-color: white;
+            padding: 10px;
+    } 
+        .card {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+    } 
+        .card h3 {
+            margin: 0;
+            padding: 0;
+    } 
+        .card p { 
+            margin: 5px 0;
+            padding: 0;
+    } 
+        .table {
+            background-color: #f0f0f0;
+            padding: 10px;
+    }  
+        table, th, td { 
+            border: 1px solid black;
+            border-collapse: collapse;
+    } 
+        th, td {
+            padding: 5px;
+            text-align: left;
+    } 
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+    }
+        .info {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+    }
+                </style>
+        </head>
+    <body>
+    <div class="container">
+        <div class="header">
+            <h1>Student Dashboard</h1>
+            <img src="Images/logo.png" alt="University" class="logo">
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <div class="card">
+                    <h3>Welcome, Ahmed Yassin!</h3>
+                    <p>You have 29 new messages.</p>
+                    <p>You have 4 pending assignments.</p>
+                    <p>You have 3 upcoming exam.</p>
+                </div>
+                <div class="card">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="My profile.html">My Profile</a></li>
+                        <li><a href="My courses.html">My Courses</a></li>
+                        <li><a href="My grades.html">My Grades</a></li>
+                        <li><a href="My calendar.html">My Calendar</a></li>
+                        <li><a href="My settings.html">My Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h3>Announcements</h3>
+                    <p>
+                        <ol>
+                            <li>Prof:A just boosted ur grades in Marketing Research</li>
+                            <li>You have an academic warning in: Principles of Statistics</li>
+                        </ol>
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Team members</h3>
+                    <p>
+                        <ol>
+                            <li>
+                                <ul>
+                                    <li>Name: Mohamed Gamal</li>
+                                    <li>ID:3221141</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>Name: Omar Abdul Latif</li>
+                                    <li>ID:3221325</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>Name: Mohamed Elsayed</li>
+                                    <li>ID:3221247</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+            <div class="table">
+                <h3>Student Details</h3>
+                <table>
+                    <tr>
+                        <th><img src="Images/me.jpg" alt="Ahmed Yassin" class="avatar"></th>
+                        <th><img src="Images/logo.png" alt="Ahmed Yassin" class="avatar"></th>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <th>Ahmed Yassin</th>
+                    </tr>
+                    <tr>
+                        <th>ID</th>
+                        <th>3201019</th>
+                    </tr>
+                    <tr>
+                        <th>GPA</th>
+                        <th>4.9</th>
+                    </tr>
+                    <tr>
+                        <th>LEVEL</th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th>Role</th>
+                        <th>Team Leader</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h4>A project by : GRIZZLY'S Team</h4>                                  SITE VER:0.19
+    </div>
+            </div>
+        </body>
+  </html>

@@ -1,0 +1,152 @@
+<html>
+<head>
+    <title>My Grades</title>
+    <link rel="icon" type="image/png" href="Images/logo.png"/>
+    <style>
+        /* Use the same style as the dashboard */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+        .main {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 10px;
+            padding: 10px;
+        }
+        .sidebar {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+        .card h3 {
+            margin: 0;
+            padding: 0;
+        }
+        .card p {
+            margin: 5px 0;
+            padding: 0;
+        }
+        /* Add some style for the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .footer {
+            background-color: #530404;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Grades</h1>
+            <img src="Images/logo.png" alt="University" class="logo">
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <div class="card">
+                    <h3>Welcome, Ahmed Yassin!</h3>
+                    <p>You have 29 new messages.</p>
+                    <p>You have 4 pending assignments.</p>
+                    <p>You have 3 upcoming exam.</p>
+                </div>
+                <div class="card">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Student Dashboard</a></li>
+                        <li><a href="My profile.html">My Profile</a></li>
+                        <li><a href="My courses.html">My Courses</a></li>
+                        <li><a href="My grades.html">My Grades</a></li>
+                        <li><a href="My calendar.html">My Calendar</a></li>
+                        <li><a href="My settings.html">My Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h3>My Grades</h3>
+                    <p>Here are your grades for the current semester.</p>
+                    <table>
+                        <tr>
+                            <th>Course</th>
+                            <th>Grade</th>
+                            <th>Feedback</th>
+                        </tr>
+                        <tr>
+                            <td>Web Design</td>
+                            <td>A+</td>
+                            <td>Excellent work!</td>
+                        </tr>
+                        <tr>
+                            <td>Marketing Research</td>
+                            <td>A+</td>
+                            <td>Excellent work!</td>
+                        </tr>
+                        <tr>
+                            <td>Macro Economics</td>
+                            <td>A+</td>
+                            <td>Excellent work!</td>
+                        </tr>
+                        <tr>
+                            <td>Intermediate Accounting 1</td>
+                            <td>F</td>
+                            <td>Failed, need to retake the course.</td>
+                        </tr>
+                        <tr>
+                            <td>Principles of Statistics</td>
+                            <td>A+</td>
+                            <td>Excellent work!</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>A project by : GRIZZLY'S Team</h4>                                  SITE VER:0.19
+        </div>
+    </div>
+</body>
+</html>
